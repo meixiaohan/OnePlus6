@@ -1,0 +1,551 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+input{border: none;}
+.clearfix::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+.inner{
+	width: 1200px;
+	margin: 0 auto;/*上下为0,左右自动相等,设置盒子居中*/
+}
+.header{
+	height: 70px;
+	background: #ffffff;
+}
+.header img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 19px;
+	margin-right: 270px;
+}
+.header .nav{
+	display: inline-block;
+	line-height: 70px;
+	float: left;
+}
+.header .nav li{
+	float: left;
+	padding-right: 35px;
+	padding-left: 35px;
+	height: 68px;
+}
+.header .nav a{
+	color: #9c9c9c;
+}
+.header .nav li:hover{
+	border-bottom: 2px solid #eb0028;
+}
+.header .nav li:hover a{
+	color: #eb0028;
+}
+
+.header .yonghulan{
+	line-height: 70px;
+	float: right;
+}
+.header .yonghulan li{
+	float: left;
+	padding-right: 21px;
+	padding-left: 20px;
+}
+.header .yonghulan a{
+	color: #9c9c9c;
+} 
+.header .yonghulan li:hover{
+	border-bottom: 2px solid #000;
+}
+
+.header .yonghulan li:hover a{
+	color: #000;
+}
+.oneplus{
+	height: 400px;
+	position: relative;
+	
+}
+.oneplus img{
+	height: 400px;
+	width: 100%;
+}
+.oneplus .img p{
+	position: absolute;
+	width: 100%;
+	bottom: 150px;
+	left: 0;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+.four{
+	height: 228px;
+	width: 800px;
+	margin: 0 auto;
+}
+.four div{
+	float: left;
+	height: 228px;
+	width: 200px;
+	padding-top: 80px;
+}
+.four .first{
+	text-align: center;
+}
+.four .first p{
+	display: block;
+	padding-top: 10px;
+	font-family: "微软雅黑";
+}
+.four .second{
+	text-align: center;
+}
+.four .second p{
+	display: block;
+	padding-top: 10px;
+	font-family: "微软雅黑";
+}
+.four .third{
+	text-align: center;
+}
+.four .third p{
+	display: block;
+	padding-top: 10px;
+	font-family: "微软雅黑";
+}
+.four .fourth{
+	text-align: center;
+}
+.four .fourth p{
+	display: block;
+	padding-top: 10px;
+	font-family: "微软雅黑";
+}
+
+#box{
+	width: 650px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 800px;
+}
+#box ul li{
+	width: 650px;
+	height: 400px;
+	position: absolute;
+	list-style: none;
+	display: none;
+}
+.circles{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 100px;
+	margin-left: 46%;
+}
+.btn{
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: black;
+	color: white;
+	opacity: 0.6;
+	position: absolute;
+	top: -20%;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+#right{
+	right: -10%;
+}
+.circles span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;	
+}
+.current{
+background: yellow!important;
+}
+.service{
+	height: 650px;
+	margin: 0 auto;
+	margin-top: 500px;
+	position: relative;
+}
+.service .bg{
+	height: 900px;
+	position: relative;
+}
+.service .bg img{
+	width: 100%;
+	height: 100%;
+}
+.service .bg span{
+	position: absolute;
+	width: 100%;
+	bottom: 90%;
+	left: 0;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+} 
+.service .bg h1{
+	position: absolute;
+	width: 100%;
+	bottom: 65%;
+	left: 0;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	font-weight:normal;
+}
+.service .bg .search{
+	width: 152px;
+	height: 47px;
+	border: 1px black solid;
+	position: absolute; 
+	left: 0; 
+	top: -15%; 
+	right: 0; 
+	bottom: 0;
+    margin: auto; 
+	position: absolute;
+	/*display: table-cell;
+    text-align: center;*/
+}
+.service .bg .search img{
+	width: 20px;
+	height: 20px;
+	bottom: 11px;
+	left: 32px;
+	position: absolute;
+}
+.service .bg .search span{
+	position: absolute;
+	width: 100%;
+	bottom: 9px;
+	left: 0;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+.service .bg .search span:hover{
+	cursor:pointer;
+}
+.service .bg .buy{
+	width: 1180px;
+	height: 330px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 60%;
+}
+.service .bg .buy .buy1{
+	width: 48%;
+	height: 330px;
+	background: white;
+	float: left;
+	position: relative;
+}
+.service .bg .buy .buy1 h1{
+	width: 50%;
+	top: 5%;
+	padding-left: 23%;
+	font-family: "微软雅黑";
+	font-weight:normal;
+}
+.service .bg .buy .buy1 h2{
+	padding-top: 15%;
+	width: 450px;
+	padding-left: 10%;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	text-align: center;
+	font-weight:normal;
+	color: #9fa2a2;
+}
+.service .bg .buy .buy1 img{
+	width: 56px;
+	height: 56px;
+	left: 45%;
+	top: 50%;
+	right: 50%;
+	bottom: 50%;
+	position: absolute;
+}
+.service .bg .buy .buy1 h3{
+	width: 40%;
+	padding-left: 43%;
+	padding-top: 25%;
+	font-family: "微软雅黑";
+	font-weight:normal;
+	color: black;
+	font-size: 10px;
+	color: #3f9fcd;
+}
+.service .bg .buy .buy1 h3:hover{
+	color: red;
+	cursor:pointer;
+}
+.service .bg .buy .buy2{
+	width: 48%;
+	height: 330px;
+	background: white;
+	float: right;
+}
+.service .bg .buy .buy2 h1{
+	width: 50%;
+	top: 5%;
+	padding-left: 50%;
+	font-family: "微软雅黑";
+	font-weight:normal;
+}
+.service .bg .buy .buy2 h2{
+	padding-top: 15%;
+	width: 450px;
+	padding-left: 10%;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	text-align: center;
+	font-weight:normal;
+	color: #9fa2a2;
+}
+.service .bg .buy .buy2 img{
+	width: 56px;
+	height: 56px;
+	left: 73%;
+	top: 50%;
+	right: 50%;
+	bottom: 50%;
+	position: absolute;
+}
+.service .bg .buy .buy2 h3{
+	width: 40%;
+	padding-left: 42%;
+	padding-top: 25%;
+	font-family: "微软雅黑";
+	font-weight:normal;
+	color: black;
+	font-size: 10px;
+	color: #3f9fcd;
+}
+.service .bg .buy .buy2 h3:hover{
+	color: red;
+	cursor:pointer;
+}
+.problem{
+	height: 555px;
+	margin: 0 auto;
+	background: white;
+	margin-top: 250px;
+}
+.problem .up{
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+.problem .up span{
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color: #10181f;
+}
+.problem .up span::after{
+	content: "";
+	height: 1px;
+	width: 1200px;
+	background: #dfdfdf;
+	position: absolute;
+	left: -60px;
+	bottom: -20px;
+}
+.problem .up input{
+	float: right;
+	width: 412px;
+	height: 52px;
+	margin: 100px 10px 0 0;
+	padding: 0 10px;
+	border: none;
+	background:#efefef ;
+	font-size: 15px;
+}
+.problem .up .small{
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 58%;
+	bottom: 0;
+	left: 96%;
+	right: 0;
+}
+.problem .down{
+	width: 1200px;
+	height: 355px;
+	margin: 0 auto;
+}
+.problem .down .left{
+	width: 600px;
+	height: 355px;
+	float: left;
+}
+.problem .down .left nav{
+    padding-left: 25px;
+}
+.problem .down .left nav ul{
+	padding-left: 25px;
+}
+.problem .down .left nav ul li{
+	padding-top: 35px;
+	position: relative;
+	color: #747474;
+}
+.problem .down .left nav ul li:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.problem .down .left nav ul li img{
+	width: 8px;
+	height: 10px;
+	margin-left: -15px;
+	margin-top: 5px;
+	position: absolute;
+}
+.problem .down .right{
+	width: 590px;
+	height: 355px;
+	float: left;
+}
+.problem .down .right nav{
+    padding-left: 45px;
+}
+.problem .down .left nav ul{
+	padding-left: 45px;
+}
+.problem .down .right nav ul li{
+	padding-top: 35px;
+	position: relative;
+	color: #747474;
+}
+.problem .down .right nav ul li:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}    
+.problem .down .right nav ul li img{
+	width: 8px;
+	height: 10px;
+	margin-left: -15px;
+	margin-top: 5px;
+	position: absolute;
+}
+.contact{
+	height: 420px;
+	margin-top: 0px;
+}
+.contact .bg .bg2{
+	width: 100%;
+	height: 420px;
+}
+.contact .bg{
+	position: relative;
+}
+.contact .bg span{
+	top: 20%;
+	bottom: 0;
+	left: 43%;
+	right: 0;
+	color: white;
+	position: absolute;
+	font-size: 30px;
+	font-family: "微软雅黑";
+}
+.contact .bg span::after{
+	content: "";
+	height: 1px;
+	width: 100px;
+	background: white;
+	position: absolute;
+	top: 75px;
+	left: 14px;
+}
+.contact .bg .weixin{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.contact .bg .message{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.contact .bg .weibo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.contact .bg .phone{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.contact .bg .first{
+	position: absolute;
+    top: 70%;
+    left: 30.5%;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.contact .bg .second{
+	position: absolute;
+    top: 70%;
+    left: 39.8%;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.contact .bg .third{
+	position: absolute;
+    top: 70%;
+    left: 50.6%;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.contact .bg .fourth{
+	position: absolute;
+    top: 70%;
+    left: 58.7%;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
